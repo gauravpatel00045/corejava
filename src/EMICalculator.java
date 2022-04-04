@@ -7,7 +7,6 @@ public class EMICalculator {
 
     public static void main(String[] args) {
         EMICalculator.getEMIInput();
-
     }
 
     /**
@@ -41,10 +40,11 @@ public class EMICalculator {
      * @param principal This parameter use for amount
      * @param rate      This parameter use for interest rate
      * @param time      This parameter use for time duration
+     * @return it returns the calculated emi
      */
     static double calculateEMI(double principal, double rate, double time) {
-        double e = (principal * rate * Math.pow(1 + rate, time)) / (Math.pow(1 + rate, time) - 1);
-        return e;
+        double emi = (principal * rate * Math.pow(1 + rate, time)) / (Math.pow(1 + rate, time) - 1);
+        return emi;
     }
 
 }

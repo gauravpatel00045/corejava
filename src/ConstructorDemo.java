@@ -6,7 +6,6 @@ public class ConstructorDemo {
     public static void main(String[] args) {
         Addition addition = new Addition(5, 4);
         addition.addition();
-
     }
 
 }

@@ -6,8 +6,6 @@ public class WhileLoopUse {
     public static void main(String[] args) {
         WhileLoopUse.whileLoopDemo();
         WhileLoopUse.doWhileLoopDemo();
-
-
     }
 
     /**
@@ -20,14 +18,12 @@ public class WhileLoopUse {
             System.out.println(i);
             i++;
         }
-
     }
 
     /**
      * In this method first statement will be executed then condition will check.
      * */
     public static void doWhileLoopDemo() {
-
         int i = 11;
         do {
             System.out.println("Statement executed first");

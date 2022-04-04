@@ -9,14 +9,12 @@ public class BreakAndContinue {
         BreakAndContinue.breakDemo();
         System.out.println();
         BreakAndContinue.continueDemo();
-
     }
 
     /**
      * This method use to print number until  7
      */
     static void breakDemo() {
-
         int breakNumber = 7;
         for (int i = 0; i < 10; i++) {
             System.out.println(i);

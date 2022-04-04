@@ -16,7 +16,6 @@ public class EncapsulationDemo {
                 + studentDetails.getName() + "\n"
                 + studentDetails.getFamilyName() + "\n"
                 + studentDetails.getCity());
-
     }
 
 }

@@ -7,7 +7,6 @@ public class StarPattern {
 
     public static void main(String[] args) {
         StarPattern.DrawPattern();
-
     }
 
     /**
@@ -25,7 +24,6 @@ public class StarPattern {
             //throws the cursor in a new line after printing each line
             System.out.println();
         }
-
     }
 
 }

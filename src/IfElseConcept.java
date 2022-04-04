@@ -13,7 +13,6 @@ public class IfElseConcept {
      * */
     static void checkAge() {
         int age = 30;
-
         int adultAge = 18;
 
         if (age >= adultAge) {

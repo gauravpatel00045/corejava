@@ -7,6 +7,7 @@ public class SwitchCaseUse {
 
     public static void main(String[] args) {
         SwitchCaseUse.getMonthNameFromNumber();
+
     }
 
     /**

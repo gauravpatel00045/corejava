@@ -2,9 +2,11 @@
  * Abstract class and method demo
  */
 public class AbstractDemo {
+
     public static void main(String[] args) {
         Shape s = new Circle1(); //During runtime draw() method of Circle1 will be executed
         s.draw();
+
     }
 
 }
@@ -13,9 +15,10 @@ public class AbstractDemo {
  * Abstract class
  */
 abstract class Shape {
-    /*
+
+    /**
      * This method has nobody.
-     * */
+     */
     abstract void draw();
 
 }
@@ -37,6 +40,7 @@ class Rectangle extends Shape {
  * This class implements Circle method
  */
 class Circle1 extends Shape {
+
     /**
      * This method  print the value
      */

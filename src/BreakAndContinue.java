@@ -4,10 +4,12 @@ import java.util.Random;
  * This class demonstrate the use of break and continue statement
  */
 public class BreakAndContinue {
+
     public static void main(String[] args) {
         BreakAndContinue.breakDemo();
         System.out.println();
         BreakAndContinue.continueDemo();
+
     }
 
     /**

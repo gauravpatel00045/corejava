@@ -46,4 +46,5 @@ public class EMICalculator {
         double e = (principal * rate * Math.pow(1 + rate, time)) / (Math.pow(1 + rate, time) - 1);
         return e;
     }
+
 }

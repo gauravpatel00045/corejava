@@ -43,6 +43,7 @@ class StudentWithoutThis {
  * In this class this keyword used that reference the current class variable
  */
 class StudentWithThis {
+
     int rollNo;
     String name;
     float fee;
@@ -54,7 +55,7 @@ class StudentWithThis {
     }
 
     /**
-     * method displays the result using this keyword
+     * method displays the result
      */
     void display() {
         System.out.println("StudentWithThis method called");

@@ -4,8 +4,10 @@ import java.util.Scanner;
  * This class use to print right side star pattern
  * */
 public class StarPattern {
+
     public static void main(String[] args) {
         StarPattern.DrawPattern();
+
     }
 
     /**

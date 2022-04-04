@@ -27,7 +27,8 @@ abstract class Shape {
  * this class implements rectangle method
  */
 class Rectangle extends Shape {
-    /*
+
+    /**
      * It prints the value
      * */
     void draw() {

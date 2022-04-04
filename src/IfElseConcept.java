@@ -1,10 +1,13 @@
+/**
+ * To use the if else statement
+ * */
 public class IfElseConcept {
 
     public static void main(String[] args) {
         IfElseConcept.checkAge();
     }
 
-    /*
+    /**
      * To check the age above 18.
      *
      * */

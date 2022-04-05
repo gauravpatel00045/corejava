@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Array list demonstrate to restrict the duplicate value
@@ -11,6 +8,7 @@ public class ArrayListDemo {
     public static void main(String[] args) {
         ArrayListDemo.listDemo();
         ArrayListDemo.removeDuplicateFromList();
+        ArrayListDemo.useOfIterator();
     }
 
     /**
@@ -18,7 +16,6 @@ public class ArrayListDemo {
      */
     static void listDemo() {
         List<String> fruitList = new ArrayList<>();
-
         fruitList.add("Apple");
         fruitList.add("Banana");
         fruitList.add("Grapes");
@@ -46,6 +43,25 @@ public class ArrayListDemo {
         Set<String> uniqueListSet = new LinkedHashSet<>(fruitList);
 
         System.out.println("unique fruit list: " + uniqueListSet);
+    }
+
+    /**
+     * Display list using iterator
+     */
+    static void useOfIterator() {
+        List<String> carList = new ArrayList<>();
+        carList.add("Accord");
+        carList.add("Civic");
+        carList.add("Corolla");
+        carList.add("Camry");
+        carList.add("Cruz");
+        carList.add("Sonata");
+        carList.add("Elentra");
+
+        Iterator iterator = carList.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
     }
 
 }

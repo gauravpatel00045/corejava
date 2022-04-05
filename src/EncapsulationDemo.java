@@ -4,8 +4,14 @@
 public class EncapsulationDemo {
 
     public static void main(String[] args) {
-        Student studentDetails = new Student();
+        EncapsulationDemo.displayDetails();
+    }
 
+    /**
+     * It displays the details using getter and setter method
+     */
+    static void displayDetails() {
+        Student studentDetails = new Student();
         // bind all the data in one object
         studentDetails.setRollNo(1);
         studentDetails.setName("Gaurav");

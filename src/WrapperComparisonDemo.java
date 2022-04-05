@@ -1,6 +1,6 @@
 /**
  * Wrapper class variable comparison
- * TODO stub is generated but developer or programmer need to add code as required.
+ *
  */
 public class WrapperComparisonDemo {
 
@@ -12,9 +12,13 @@ public class WrapperComparisonDemo {
      * It compares wrapper class variable.
      */
     static void compareVariable() {
-        Integer a = new Integer(10);
-        Integer b = new Integer(10);
-        int checkValue = a.compareTo(b);
+        Integer a = 10;
+        Integer b = new Integer("10");
+        if (a == b) {
+            System.out.println("Both  numbers are equal");
+        } else {
+            System.out.println("Both  numbers are not equal");
+        }
     }
 
 }

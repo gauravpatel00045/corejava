@@ -13,18 +13,18 @@ public class EMICalculator {
      * This method use to get input from the user
      */
     static void getEMIInput() {
-        Scanner a = new Scanner(System.in);
+        Scanner inputFromUser = new Scanner(System.in);
 
         double principal, rate, time, emi;
 
         System.out.print("Enter principal: ");
-        principal = a.nextFloat();
+        principal = inputFromUser.nextFloat();
 
         System.out.print("Enter rate: ");
-        rate = a.nextFloat();
+        rate = inputFromUser.nextFloat();
 
         System.out.print("Enter time in year: ");
-        time = a.nextFloat();
+        time = inputFromUser.nextFloat();
 
         rate = rate / (12 * 100);
         time = time * 12;

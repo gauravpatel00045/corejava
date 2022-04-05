@@ -4,8 +4,8 @@
 public class AbstractDemo {
 
     public static void main(String[] args) {
-        Shape s = new Circle1(); //During runtime draw() method of Circle1 will be executed
-        s.draw();
+        Shape shapeCircle = new Circle(); // During runtime draw() method of Circle1 will be executed
+        shapeCircle.draw();
     }
 
 }
@@ -39,7 +39,7 @@ class Rectangle extends Shape {
 /**
  * This class implements Circle method
  */
-class Circle1 extends Shape {
+class Circle extends Shape {
 
     /**
      * This method  print the value

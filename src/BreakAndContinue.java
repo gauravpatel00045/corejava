@@ -32,8 +32,8 @@ public class BreakAndContinue {
         int skipNumber = 5;
         for (int i = 1; i <= 10; i++) {
             if (i == skipNumber) {
-                //using continue statement
-                continue;//it will skip the rest statement
+                // using continue statement
+                continue; // it will skip the rest statement
             }
             System.out.println(i);
         }

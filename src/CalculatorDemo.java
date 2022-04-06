@@ -13,7 +13,9 @@ public class CalculatorDemo {
      * Execute operation
      */
     static void perform() {
-        int selectedOperation, valueA, valueB;
+        int selectedOperation;
+        int valueA;
+        int valueB;
         // while loop to get the operation type
         while (true) {
             CalculatorDemo.showOperationMenu();
@@ -189,8 +191,6 @@ public class CalculatorDemo {
             case 4:
                 System.out.println(valueA + " / " + valueB);
                 System.out.print(CalculatorDemo.division(valueA, valueB));
-                break;
-            case 5:
                 break;
             default:
                 System.out.println("Sorry... Try again");
